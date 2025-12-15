@@ -7,7 +7,7 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(255,255,255,0);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
@@ -16,7 +16,13 @@ ellipse(93,98,165,110)
 ellipse(300,98,165,110)
 ellipse(300,83,75,80)
 ellipse(93,83,75,80)
-rect(171,51,100, 200)
+ellipse(93,83,15,15)
+ellipse(300,83,15,15)
+ellipse(195,308,130,65)
+
+quad(165,199,230,199,255,244,145,244)
+
+rect(165,0,65, 200)
 }
 
 //🟡Extra FUN Features Ms. Hall Added
